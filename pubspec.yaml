@@ -1,0 +1,24 @@
+name: joke_generator
+
+description: A new Flutter project for generating jokes.
+
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3  # Add HTTP package
+  # Add other necessary packages here as needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # Add any assets, fonts, etc., here if required.
