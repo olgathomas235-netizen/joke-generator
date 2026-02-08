@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+h1 {
+    font-size: 3em;
+    animation: fadeIn 2s;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.button {
+    background-color: #6200ea;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #3700b3;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    .button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
